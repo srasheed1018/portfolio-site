@@ -1,45 +1,82 @@
 <script lang="ts">
-	import { TabGroup, Tab } from '@skeletonlabs/skeleton';
-
-	// Local
-	let tabsBasic = 0;
-	let desc = {
-		books: 'A message board app created using React and Supabase',
-		movies: 'A Link sharing app powered by Sveltekit and Firebase',
-		tv: 'A Kanban app utilizing Angular and Firebase'
-	};
+	import { Avatar } from '@skeletonlabs/skeleton';
 </script>
 
+<!--Main container-->
 <div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-10 text-center flex flex-col items-center">
+	<!--Centers contents-->
+	<div class="space-y-8 text-center flex flex-col items-center">
+		
+		<!--Avatar-->
+		<Avatar src="pfp.jpg" width="w-48" rounded="rounded-full"/>
+		<!--Text Area-->
 		<div class="bg-gradient-to-br from-blue-500 to-cyan-300 bg-clip-text text-transparent box-decoration-clone">
 			<h2 class="h2">
 				My name is <b>Siddeeq Rasheed</b>,
 			</h2>
 			<h3 class="h3">
-				and I'm an aspiring software engineer.
+				and I'm an aspiring software developer.
 			</h3>
 		</div>
-		<br/>
-		<section class="w-full card p-4 text-token variant-ghost-primary">
-			<TabGroup hover="variant-soft" >
-				<!-- Tabs -->
-				<Tab bind:group={tabsBasic} name="books" value={0}><span>Project 1</span></Tab>
-				<Tab bind:group={tabsBasic} name="movies" value={1}>Project 2</Tab>
-				<Tab bind:group={tabsBasic} name="tv" value={2}>Project 3</Tab>
-				<!-- Panel -->
-				<svelte:fragment slot="panel">
-					{#if tabsBasic === 0}
-						<p>{desc.books}</p>
-					{:else if tabsBasic === 1}
-						<p>{desc.movies}</p>
-					{:else if tabsBasic === 2}
-						<p>{desc.tv}</p>
-					{/if}
-				</svelte:fragment>
-			</TabGroup>
+
+		
+		
+		<!--Scroll Conatiner for mobile-->
+		<section class="w-screen">
+			<div class="snap-x scroll-px-4 snap-mandatory scroll-smooth flex gap-4 overflow-x-auto px-4 py-10">	
+				<!--Thinks Card-->
+				<div class="variant-glass-tertiary snap-center shrink-0 card w-full h-fit text-center p-3">
+					<header>
+						<img src="thinks_logo.svg" alt="thinks_logo" class="w-screen h-full aspect-auto"/>
+					</header>
+					<section class="p-4">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id repellat qui ducimus impedit vitae, incidunt dolore fugiat autem laudantium voluptates quod commodi consequatur nesciunt itaque aliquid beatae a eum harum.
+					</section>
+					<footer class="card-footer">
+						<span class="h3 font-bold">Tech Stack:</span>
+						<div class="justify-center items-center flex mt-3">
+							<img src="react.png" alt="react_logo" class="w-12 mx-2"/>
+							<img src="supabase.png" alt="supabase_logo" class="w-12 mx-2"/>
+							<img src="postgres.png" alt="pg_logo" class="w-12 mx-2"/>
+						</div>
+					</footer>
+				</div>
+				<!--LinkUp Card-->
+				<div class="variant-glass-tertiary snap-center shrink-0 card w-full h-full text-center p-3">
+					<header>
+						<img src="thinks_logo.svg" alt="thinks_logo" class="w-screen h-full aspect-auto"/>
+					</header>
+					<section class="p-4">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id repellat qui ducimus impedit vitae, incidunt dolore fugiat autem laudantium voluptates quod commodi consequatur nesciunt itaque aliquid beatae a eum harum.
+					</section>
+					<footer class="card-footer">
+						<span class="h3 font-bold">Tech Stack:</span>
+						<div class="justify-center items-center flex mt-3">
+							<img src="svelte.png" alt="svelte_logo" class="w-12 mx-2"/>
+							<img src="firebase.png" alt="firebase_logo" class="w-12 mx-2"/>
+						</div>
+					</footer>
+				</div>
+				<!--Kanban Card-->
+				<div class="variant-glass-tertiary snap-center shrink-0 card w-full h-full text-center p-3">
+					<header>
+						<img src="thinks_logo.svg" alt="thinks_logo" class="w-screen h-full aspect-auto"/>
+					</header>
+					<section class="p-4">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id repellat qui ducimus impedit vitae, incidunt dolore fugiat autem laudantium voluptates quod commodi consequatur nesciunt itaque aliquid beatae a eum harum.
+					</section>
+					<footer class="card-footer">
+						<span class="h3 font-bold">Tech Stack:</span>
+						<div class="justify-center items-center flex mt-3">
+							<img src="angular.svg" alt="angular_logo" class="w-12 mx-2"/>
+							<img src="firebase.png" alt="firebase_logo" class="w-12 mx-2"/>
+						</div>
+					</footer>
+				</div>
+			</div>
 
 		</section>
+		
 	</div>
 </div>
 
