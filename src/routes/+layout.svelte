@@ -1,6 +1,9 @@
 <script lang="ts">
 	import '../app.postcss';
-	import { AppShell, AppBar, Avatar } from '@skeletonlabs/skeleton';
+	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+	import { initializeStores } from '@skeletonlabs/skeleton';
+
+	initializeStores();
 </script>
 
 <!-- App Shell -->
@@ -31,11 +34,11 @@
 			<svelte:fragment slot="trail">
 				<section class="w-auto h-auto">
 					<div class="logo-cloud h-full grid-cols-2">
-						<a class="logo-item px-3 h-10 variant-glass-primary" href="https://github.com/srasheed1018" target="_blank" rel="noreferrer">
+						<a class="logo-item px-3 h-10 variant-glass-success" href="https://github.com/srasheed1018" target="_blank" rel="noreferrer">
 							<i class="fa-brands fa-github text-2xl" />
 							<span>Github</span>
 						</a>
-						<a class="logo-item px-3 h-10 variant-glass-primary" href="https://www.linkedin.com/in/siddeeq-rasheed/" target="_blank" rel="noreferrer">
+						<a class="logo-item px-3 h-10 variant-glass-success" href="https://www.linkedin.com/in/siddeeq-rasheed/" target="_blank" rel="noreferrer">
 							<i class="fa-brands fa-linkedin text-2xl" />
 							<span>LinkedIn</span>
 						</a>

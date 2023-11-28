@@ -20,19 +20,23 @@
 		</div>
 
 		
-		
 		<!--Scroll Container for mobile-->
-		<section class="w-screen">
+		<section class="w-screen md:hidden">
+			<div class="animate-pulse text-amber-500 italic">Scroll to explore my projects <i class="fa-solid fa-hand-point-right pl-1"></i></div>
 			<div class="snap-x scroll-px-4 snap-mandatory scroll-smooth flex gap-4 overflow-x-auto px-4 py-10">	
 				<!--Thinks Card-->
-				<div class="variant-glass-tertiary snap-center shrink-0 card w-full h-fit text-center p-3">
+				<div class="variant-glass-primary snap-center shrink-0 card w-full h-fit text-center p-3">
 					<header>
 						<img src="thinks_logo.svg" alt="thinks_logo" class="w-screen h-full aspect-auto"/>
 					</header>
 					<section class="py-4 px-2">
-						<span>
+						<div>
 							<b>Thinks</b> is a message board application. Users can log in to participate in a public discussion by posting, commenting, and casting votes.
-						</span>
+						</div>
+						<div class="pt-4">
+							<a class="btn variant-filled-warning mr-3" href="https://tangerine-mermaid-88c0fd.netlify.app/" target="_blank">Live demo</a>
+							<a class="btn variant-filled-warning" href="https://github.com/srasheed1018/supabase-react-project" target="_blank">Source code</a>
+						</div>
 					</section>
 					<footer class="card-footer">
 						<span class="h3 font-bold">Tech Stack:</span>
@@ -44,14 +48,18 @@
 					</footer>
 				</div>
 				<!--LinkUp Card-->
-				<div class="variant-glass-tertiary snap-center shrink-0 card w-full h-full text-center p-3">
+				<div class="variant-glass-secondary snap-center shrink-0 card w-full h-full text-center p-3">
 					<header>
-						<img src="thinks_logo.svg" alt="thinks_logo" class="w-screen h-full aspect-auto"/>
+						<img src="linkup.png" alt="linkup_logo" class="w-screen h-full aspect-auto"/>
 					</header>
 					<section class="py-4 px-2">
-						<span>
-							<b>LinkUp</b> is a link sharing application. Users configure a bio and a set of links which they can share publically using their assigned URL.
-						</span>
+						<div>
+							<b>LinkUp</b> is a link sharing application. Users configure a bio and a set of links which they can share publicly using their assigned URL.
+						</div>
+						<div class="pt-4">
+							<a class="btn variant-filled-warning mr-3" href="https://fkit-project-918ef.web.app/" target="_blank">Live demo</a>
+							<a class="btn variant-filled-warning" href="https://github.com/srasheed1018/fkit-project" target="_blank">Source code</a>
+						</div>
 					</section>
 					<footer class="card-footer">
 						<span class="h3 font-bold">Tech Stack:</span>
@@ -64,12 +72,16 @@
 				<!--Kanban Card-->
 				<div class="variant-glass-tertiary snap-center shrink-0 card w-full h-full text-center p-3">
 					<header>
-						<img src="thinks_logo.svg" alt="thinks_logo" class="w-screen h-full aspect-auto"/>
+						<img src="kanban.png" alt="kanban_logo" class="w-screen h-full aspect-auto"/>
 					</header>
 					<section class="py-4 px-2">
-						<span>
-							This is a <b>Kanban Progressive Web Application.</b> Users can organize boards of tasks, all synced to a Google Account.
-						</span>
+						<div>
+							This is a <b>Kanban Progressive Web Application.</b> Users can organize boards of tasks via a drag-and-drop interface, all synced to a Google Account.
+						</div>
+						<div class="pt-4">
+							<a class="btn variant-filled-warning mr-3" href="https://endearing-cat-5a53e0.netlify.app/" target="_blank">Live demo</a>
+							<a class="btn variant-filled-warning" href="https://github.com/srasheed1018/angularfire-project" target="_blank">Source code</a>
+						</div>
 					</section>
 					<footer class="card-footer">
 						<span class="h3 font-bold">Tech Stack:</span>
