@@ -32,8 +32,6 @@
   "dependencies": {
     "@floating-ui/dom": "1.5.3",
     "@popperjs/core": "^2.11.8",
-    "flowbite": "^2.2.0",
-    "flowbite-svelte": "^0.44.20",
     "tailwind-merge": "^2.0.0"
   }
 }
