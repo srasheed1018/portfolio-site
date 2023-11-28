@@ -30,7 +30,7 @@
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<section class="w-auto h-auto">
-					<div class="logo-cloud h-10 grid-cols-2 lg:!grid-cols-2">
+					<div class="logo-cloud h-full grid-cols-2">
 						<a class="logo-item px-3 h-10 variant-glass-primary" href="https://github.com/srasheed1018" target="_blank" rel="noreferrer">
 							<i class="fa-brands fa-github text-2xl" />
 							<span>Github</span>

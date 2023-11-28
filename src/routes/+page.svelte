@@ -21,7 +21,7 @@
 
 		
 		
-		<!--Scroll Conatiner for mobile-->
+		<!--Scroll Container for mobile-->
 		<section class="w-screen">
 			<div class="snap-x scroll-px-4 snap-mandatory scroll-smooth flex gap-4 overflow-x-auto px-4 py-10">	
 				<!--Thinks Card-->
@@ -29,15 +29,17 @@
 					<header>
 						<img src="thinks_logo.svg" alt="thinks_logo" class="w-screen h-full aspect-auto"/>
 					</header>
-					<section class="p-4">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id repellat qui ducimus impedit vitae, incidunt dolore fugiat autem laudantium voluptates quod commodi consequatur nesciunt itaque aliquid beatae a eum harum.
+					<section class="py-4 px-2">
+						<span>
+							<b>Thinks</b> is a message board application. Users can log in to participate in a public discussion by posting, commenting, and casting votes.
+						</span>
 					</section>
 					<footer class="card-footer">
 						<span class="h3 font-bold">Tech Stack:</span>
 						<div class="justify-center items-center flex mt-3">
-							<img src="react.png" alt="react_logo" class="w-12 mx-2"/>
-							<img src="supabase.png" alt="supabase_logo" class="w-12 mx-2"/>
-							<img src="postgres.png" alt="pg_logo" class="w-12 mx-2"/>
+							<img src="react.png" alt="react_logo" class="h-12 mx-2"/>
+							<img src="supabase.png" alt="supabase_logo" class="h-12 mx-2"/>
+							<img src="postgres.png" alt="pg_logo" class="h-12 mx-2"/>
 						</div>
 					</footer>
 				</div>
@@ -46,14 +48,16 @@
 					<header>
 						<img src="thinks_logo.svg" alt="thinks_logo" class="w-screen h-full aspect-auto"/>
 					</header>
-					<section class="p-4">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id repellat qui ducimus impedit vitae, incidunt dolore fugiat autem laudantium voluptates quod commodi consequatur nesciunt itaque aliquid beatae a eum harum.
+					<section class="py-4 px-2">
+						<span>
+							<b>LinkUp</b> is a link sharing application. Users configure a bio and a set of links which they can share publically using their assigned URL.
+						</span>
 					</section>
 					<footer class="card-footer">
 						<span class="h3 font-bold">Tech Stack:</span>
 						<div class="justify-center items-center flex mt-3">
-							<img src="svelte.png" alt="svelte_logo" class="w-12 mx-2"/>
-							<img src="firebase.png" alt="firebase_logo" class="w-12 mx-2"/>
+							<img src="svelte.png" alt="svelte_logo" class="h-14 mx-2"/>
+							<img src="firebase.png" alt="firebase_logo" class="h-14 mx-2"/>
 						</div>
 					</footer>
 				</div>
@@ -62,19 +66,20 @@
 					<header>
 						<img src="thinks_logo.svg" alt="thinks_logo" class="w-screen h-full aspect-auto"/>
 					</header>
-					<section class="p-4">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id repellat qui ducimus impedit vitae, incidunt dolore fugiat autem laudantium voluptates quod commodi consequatur nesciunt itaque aliquid beatae a eum harum.
+					<section class="py-4 px-2">
+						<span>
+							This is a <b>Kanban Progressive Web Application.</b> Users can organize boards of tasks, all synced to a Google Account.
+						</span>
 					</section>
 					<footer class="card-footer">
 						<span class="h3 font-bold">Tech Stack:</span>
 						<div class="justify-center items-center flex mt-3">
-							<img src="angular.svg" alt="angular_logo" class="w-12 mx-2"/>
-							<img src="firebase.png" alt="firebase_logo" class="w-12 mx-2"/>
+							<img src="angular.svg" alt="angular_logo" class="h-16 mx-2"/>
+							<img src="firebase.png" alt="firebase_logo" class="h-14 mx-2"/>
 						</div>
 					</footer>
 				</div>
 			</div>
-
 		</section>
 		
 	</div>
