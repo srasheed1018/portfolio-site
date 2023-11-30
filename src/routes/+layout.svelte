@@ -11,20 +11,6 @@
 
 <!-- App Shell -->
 <AppShell>
-	<div class="background-anim">
-		<ul class="circles">
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>
-	</div>
 	<!-- (header) -->
 	<!-- (sidebarLeft) -->
 	<!-- (sidebarRight) -->
