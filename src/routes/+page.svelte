@@ -67,7 +67,7 @@
 
 		<!--Scroll Container for mobile-->
 		<section class="w-screen md:invisible md:h-0 md:w-0">
-			<div class="animate-pulse text-amber-500 italic">Scroll to explore my projects <i class="fa-solid fa-hand-point-right pl-1"></i></div>
+			<div class="animate-pulse text-amber-500 italic pt-5">Swipe to explore my projects <i class="fa-solid fa-hand-point-right pl-1"></i></div>
 			<div class="snap-x scroll-px-4 snap-mandatory scroll-smooth flex gap-4 overflow-x-auto scrollbar-hide px-4 py-10">	
 				<!--Thinks Card-->
 				<div class="variant-glass-primary snap-center shrink-0 card w-full h-fit text-center p-3">
