@@ -91,7 +91,7 @@
 					</header>
 					<section class="py-4 px-2">
 						<div>
-							<b>Thinks</b> is a message board application. Users can log in to participate in a public discussion by posting, commenting, and casting votes.
+							<b>Thinks</b> is a message board application where users can log in to participate in a public discussion by posting, commenting, and casting votes.
 						</div>
 						<ul class="list space-y-2 text-left py-4">
 							<li>
@@ -133,15 +133,15 @@
 						<ul class="list space-y-2 text-left py-4">
 							<li>
 								<span><i class="fa-solid fa-circle-check scale-125 mx-8" style="color: #c762fe;"></i></span>
+								<span class="flex-auto">Step-by-step onboarding process</span>
+							</li>
+							<li>
+								<span><i class="fa-solid fa-circle-check scale-125 mx-8" style="color: #c762fe;"></i></span>
+								<span class="flex-auto">Realtime drag-and-drop interface synced with Firestore</span>
+							</li>
+							<li>
+								<span><i class="fa-solid fa-circle-check scale-125 mx-8" style="color: #c762fe;"></i></span>
 								<span class="flex-auto">Dynamic routing using SvelteKit</span>
-							</li>
-							<li>
-								<span><i class="fa-solid fa-circle-check scale-125 mx-8" style="color: #c762fe;"></i></span>
-								<span class="flex-auto">Realtime drag-and-drop interface synced with Firebase</span>
-							</li>
-							<li>
-								<span><i class="fa-solid fa-circle-check scale-125 mx-8" style="color: #c762fe;"></i></span>
-								<span class="flex-auto">Cookie-based user authentication</span>
 							</li>
 						</ul>
 						<div class="pt-4">
@@ -266,7 +266,7 @@
 						<ul class="list space-y-2 text-left">
 							<li>
 								<span><i class="fa-solid fa-circle-check scale-125 mx-8" style="color: #c762fe;"></i></span>
-								<span class="flex-auto">Dynamic routing using SvelteKit</span>
+								<span class="flex-auto">Step-by-step onboarding process</span>
 							</li>
 							<li>
 								<span><i class="fa-solid fa-circle-check scale-125 mx-8" style="color: #c762fe;"></i></span>
@@ -274,7 +274,7 @@
 							</li>
 							<li>
 								<span><i class="fa-solid fa-circle-check scale-125 mx-8" style="color: #c762fe;"></i></span>
-								<span class="flex-auto">Cookie-based user authentication</span>
+								<span class="flex-auto">Dynamic routing using SvelteKit</span>
 							</li>
 						</ul>
 						<div class="pt-3">
