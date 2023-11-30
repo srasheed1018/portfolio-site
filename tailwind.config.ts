@@ -14,6 +14,7 @@ export default {
 		},
 	},
 	plugins: [
+		require('tailwind-scrollbar-hide'),
 		forms,
 		typography,
 		skeleton({

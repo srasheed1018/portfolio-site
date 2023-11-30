@@ -1,19 +1,15 @@
 <script lang="ts">
 	import '../app.postcss';
-	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+	import { AppShell, AppBar, Modal } from '@skeletonlabs/skeleton';
 	
 	import { initializeStores } from '@skeletonlabs/skeleton';
-	initializeStores();
-
-	import { computePosition, autoUpdate, offset, shift, flip, arrow } from '@floating-ui/dom';
-	
-	import { storePopup } from '@skeletonlabs/skeleton';
-	storePopup.set({ computePosition, autoUpdate, offset, shift, flip, arrow });
-			
+	initializeStores();		
 </script>
 
-<!-- App Shell -->
+<!--Modal-->
+<Modal background="variant-glass" buttonTextCancel="Close" shadow="shadow-none" />
 
+<!-- App Shell -->
 <AppShell>
 	<div class="background-anim">
 		<ul class="circles">
@@ -33,6 +29,7 @@
 	<!-- (sidebarLeft) -->
 	<!-- (sidebarRight) -->
 	<svelte:fragment slot="header">
+		<!--
 		<AppBar background="bg-surface-500">
 			<svelte:fragment slot="lead">
 				<span></span>
@@ -52,6 +49,7 @@
 				</section>
 			</svelte:fragment>
 		</AppBar>
+		-->
 	</svelte:fragment>
 	<!-- Router Slot -->
 	<slot />
