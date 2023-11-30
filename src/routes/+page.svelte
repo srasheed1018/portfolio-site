@@ -25,7 +25,7 @@
 	<div class="space-y-4 md:space-y-8 text-center flex flex-col items-center">
 		
 		<!--Avatar-->
-		<Avatar src="pfp.jpg" width="w-48" rounded="rounded-full" class="mt-8 md:mt-16"/>
+		<Avatar src="pfp.jpg" width="w-48" rounded="rounded-full" class="mt-8 md:mt-16 drop-shadow-[0px_0px_25px_rgba(76,168,247,1)]" border="border-4 border-blue-500"/>
 		<!--Text Area-->
 		<div class="bg-gradient-to-br from-blue-500 to-cyan-300 bg-clip-text text-transparent box-decoration-clone">
 			<h2 class="h2">
@@ -240,13 +240,13 @@
 			<!--LinkUp div-->
 			<div class="card flex variant-ringed-secondary">
 				<header class="card-header">
-					<div class="h-full w-[30vw] my-[10vh]">
-						<img src="linkup.png" alt="linkup_logo" class=""/>
+					<div class="h-full w-[30vw]">
+						<img src="linkup.svg" alt="linkup_logo" class="h-full"/>
 					</div>
 				</header>
 				
 				<section>
-					<div class="min-w-[30vw] space-y-4 p-5 mt-3 2xl:mt-14">
+					<div class="min-w-[30vw] space-y-4 p-5 mt-3 2xl:mt-8">
 						<b>LinkUp</b> is a link sharing application. Users configure a bio and a set of links which they can share publicly using their assigned URL.
 						<ul class="list space-y-2 text-left">
 							<li>
@@ -293,13 +293,13 @@
 			<!--Kanban div-->
 			<div class="card flex variant-ringed-tertiary">
 				<header class="card-header">
-					<div class="h-full w-[30vw] my-[5vh]">
-						<img src="kanban.png" alt="linkup_logo" class=""/>
+					<div class="h-full p-4">
+						<img src="kanban.svg" alt="linkup_logo" class=""/>
 					</div>
 				</header>
 				
 				<section>
-					<div class="min-w-[30vw] space-y-4 p-5 mt-3 2xl:mt-14">
+					<div class="min-w-[30vw] space-y-4 p-5 mt-3 2xl:mt-8">
 						This is a <b>Kanban Progressive Web Application.</b> Users can organize boards of tasks via a drag-and-drop interface, all synced to a Google Account.
 						<ul class="list space-y-2 text-left">
 							<li>
