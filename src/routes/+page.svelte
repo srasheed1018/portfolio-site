@@ -44,7 +44,7 @@
 		<!--Text Area-->
 		<div class="bg-gradient-to-br from-blue-500 to-cyan-300 bg-clip-text text-transparent box-decoration-clone">
 			<h2 class="h2">
-				My name is <b>Siddeeq Rasheed</b>,
+				My name is <b>Siddeeq Rasheed.</b>
 			</h2>
 			<h3 class="h3">
 				 
