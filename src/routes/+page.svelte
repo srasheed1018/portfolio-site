@@ -50,9 +50,14 @@
 				 
 			</h3>
 		</div>
-		<button class="btn glow-button" on:click={openModal}>
-			CONTACT INFO
-		</button>
+		<div>
+			<button class="btn glow-button" on:click={openModal}>
+				CONTACT INFO
+			</button>
+			<a class="btn glow-button" href="https://drive.google.com/drive/folders/1MLUQiIgUTPOO8I7CIDGLPf8feiJKwRFL?usp=drive_link" target="_blank">
+				BIOMED PORTFOLIO
+			</a>
+		</div>
 		
 		<!-- used for editing modal body element
 		<div class="w-auto h-auto">
