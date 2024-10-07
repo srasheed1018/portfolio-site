@@ -6,7 +6,7 @@
 	const modalStore = getModalStore();
 
 	function openModal() {
-		const bodyString = '<div class="w-auto h-auto">			<section class="h4">				<ul class="list">					<li>						<span><i class="fa-solid fa-envelope" style="color: #0a95b8;"></i></span>						<a href="mailto:srasheed9326@gmail.com">srasheed9326@gmail.com</a>					</li>					<li>						<span><i class="fa-solid fa-phone" style="color: #0a95b8;"></i></span>						<a href="tel:347-886-2615">(347) 886-2615</a>					</li>					<li>						<span><i class="fa-brands fa-github" style="color: #0a95b8;"></i></span>						<a href="https://github.com/srasheed1018" target="_blank">srasheed1018</a>					</li>					<li>						<span><i class="fa-brands fa-linkedin" style="color: #0a95b8;"></i></span>						<a href="https://www.linkedin.com/in/siddeeq-rasheed/" target="_blank">siddeeq-rasheed</a>					</li>					<li>						<span><i class="fa-solid fa-file-lines my-4 mr-0" style="color: #0a95b8;"></i></span>						<a class="btn variant-glass-success px-8" href="https://drive.google.com/drive/folders/1OBVhKYmyQJZQ4vuaOhnQC_f6kRTHR_u7?usp=sharing" target="_blank">Resume Link <i class="fa-solid fa-arrow-up-right-from-square ml-2" style="color: #ffffff;"></i></a>					</li>				</ul>			</section>		</div>'
+		const bodyString = '<div class="w-auto h-auto">			<section class="h4">				<ul class="list">					<li>						<span><i class="fa-solid fa-envelope" style="color: #0a95b8;"></i></span>						<a href="mailto:srasheed9326@gmail.com">srasheed9326@gmail.com</a>					</li>					<li>						<span><i class="fa-brands fa-linkedin" style="color: #0a95b8;"></i></span>						<a href="https://www.linkedin.com/in/siddeeq-rasheed/" target="_blank">siddeeq-rasheed</a>					</li>					<li>						<span><i class="fa-solid fa-file-lines my-4 mr-0" style="color: #0a95b8;"></i></span>						<a class="btn variant-glass-success px-8" href="https://drive.google.com/drive/folders/1OBVhKYmyQJZQ4vuaOhnQC_f6kRTHR_u7?usp=sharing" target="_blank">Resume Link <i class="fa-solid fa-arrow-up-right-from-square ml-2" style="color: #ffffff;"></i></a>					</li>				</ul>			</section>		</div>'
 
 		const modal: ModalSettings = {
 			type: 'alert',
@@ -15,6 +15,18 @@
 			body: bodyString,
 		};
 		modalStore.trigger(modal);
+	}
+
+	function openModalTest() {
+		const bodyString2 = '<div class="w-auto h-auto"><section class="h4"><ul class="list"> <li> <img src="thinks_logo.svg" alt="thinks_logo" class="h-16 mr-20"/> <a class="btn variant-filled-warning mr-3" href="https://tangerine-mermaid-88c0fd.netlify.app/" target="_blank">Live demo</a> <a class="btn variant-filled-warning" href="https://github.com/srasheed1018/supabase-react-project" target="_blank">Source code</a> </li> </ul></section></div>'
+
+		const modal2: ModalSettings = {
+			type: 'alert',
+			// Data
+			title: 'Software Projects',
+			body: bodyString2,
+		};
+		modalStore.trigger(modal2);
 	}
 
 </script>
@@ -46,16 +58,16 @@
 			<h2 class="h2">
 				My name is <b>Siddeeq Rasheed.</b>
 			</h2>
-			<h3 class="h3">
-				 
-			</h3>
+			<h4 class="h4 mt-0.5">
+				 Software Developer / Biomedical Technician
+			</h4>
 		</div>
 		<div>
 			<button class="btn glow-button" on:click={openModal}>
 				CONTACT INFO
 			</button>
-			<a class="btn glow-button" href="https://drive.google.com/drive/folders/1MLUQiIgUTPOO8I7CIDGLPf8feiJKwRFL?usp=drive_link" target="_blank">
-				BIOMED PORTFOLIO
+			<a class="btn glow-button-biomed ml-2" href="https://drive.google.com/drive/folders/1MLUQiIgUTPOO8I7CIDGLPf8feiJKwRFL?usp=drive_link" target="_blank">
+				BIOMED PORTFOLIO <i class="fa-solid fa-arrow-up-right-from-square ml-2" style="color: #ffffff;"></i>
 			</a>
 		</div>
 		
@@ -557,6 +569,47 @@
 		}
 	}
 	@keyframes pulse {
+		 0% {
+			transform: scale(1);
+		 }
+		 20% {
+			transform: scale(1);
+		 }
+		 25% {
+			transform: scale(0.9);
+		 }
+		 30% {
+			transform: scale(1.1);
+		 }
+		 35% {
+			transform: scale(1);
+		 }
+		 100% {
+			transform: scale(1);
+		 }
+	}
+
+.glow-button-biomed {
+		animation: glow-biomed 5s linear infinite;
+	}
+	@keyframes glow-biomed {
+		0% {
+			@apply bg-red-500/75;
+		}
+		25% {
+			@apply bg-pink-500/75;
+		}
+		50% {
+			@apply bg-red-500/75;
+		}
+		75% {
+			@apply bg-pink-500/75;
+		}
+		100% {
+			@apply bg-red-500/75;
+		}
+	}
+	@keyframes pulse-biomed {
 		 0% {
 			transform: scale(1);
 		 }
